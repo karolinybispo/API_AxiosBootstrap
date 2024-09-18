@@ -18,3 +18,10 @@
 - criei uma classe: sobre o pacote do nosso projeto (com.example.demo) e escolha New>Class. No package e name deixe o nome igual. No name (que eh a classe) deixe maiusculo e no package deixe minusculo/
 - nessa classe inicia o processo de criacao da API.
 - adicionando anotacoes: acima do public adicione  @RestController, ela informa ao Spring que esta classe é um controlador REST | O @RequestMapping é responsável por mapear as requisições do cliente com endpoint específico, o parametro dessa anotacao será o que voce preferir (?).
+
+
+## Vue
+- adc via cdn. Esse Link https://vuejs.org/guide/quick-start eh do site oficial do vue que fornece o caminho via cdn.
+
+
+
