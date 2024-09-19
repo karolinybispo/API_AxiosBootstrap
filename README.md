@@ -22,6 +22,5 @@
 
 ## Vue
 - adc via cdn. Esse Link https://vuejs.org/guide/quick-start eh do site oficial do vue que fornece o caminho via cdn.
-
-
-
+- no momento de colocar o endereco da API na variavel js foi levantado um problema de CORS. Solucao: no spring boot colocar a anotacion @CrossOrigin    |   O CORS ocorre quando você tenta fazer uma requisição de uma origem (por exemplo, http://localhost:8080) para outra (como http://127.0.0.1:8080).
+- CORS: mecanismo de segurança que os navegadores utilizam para controlar como as páginas da web podem solicitar recursos de domínios diferentes do domínio que serviu a página.
