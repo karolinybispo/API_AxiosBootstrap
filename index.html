@@ -14,22 +14,24 @@
 <body>
     <!--aqui inicia o aplicativo vue-->
     <div id="app">
+
       <!--Tabela botstrap que vai mostrar o que vem da API-->
         <table class="table table-striped">
           <thead>
-            <tr>
+            <tr> <!-- Linha da tabela. Usado para cria uma linha dentro da tabela. Cada linha pode ter celulas de dados ou de cabecalho-->
+            <!--'<th></th>' eh o Cabecalho da Tabela. Cria celulas de cabecalho dentro da tabela. Normalmente usado na primeira linha para definir titulo das colunas -->
               <th scope="col">#</th>
               <th scope="col">Id</th>
               <th scope="col">Title</th>
               <th scope="col">Price</th>
               <th scope="col">Category</th>
               <th scope="col">Image</th>
-              </tr>
+              </tr> <!--finaliza linha da tabela-->
           </thead>
           <tbody>
-            <tr v-for="result in results" :key="result.id">
-              <th scope="row">1</th>
-              <td>{{result.id}}</td>
+            <tr v-for="result in results" :key="result.id"> <!-- A diretiva v-for cria um loop sobre o array 'results'; a cada iteração, um item de 'results' é atribuído à variável 'result' -->
+              <th scope="row">1</th>                        <!-- scope="row": indica que esta célula 'th' é referente à linha inteira, geralmente usada para títulos de linhas -->
+              <td>{{result.id}}</td>                        <!-- a cada loop o result passa o valor que representa result.id-->
               <td>{{result.title}}</td>
               <td>{{result.price}}</td>
               <td>{{result.category}}</td>

@@ -24,3 +24,22 @@
 - adc via cdn. Esse Link https://vuejs.org/guide/quick-start eh do site oficial do vue que fornece o caminho via cdn.
 - no momento de colocar o endereco da API na variavel js foi levantado um problema de CORS. Solucao: no spring boot colocar a anotacion @CrossOrigin    |   O CORS ocorre quando você tenta fazer uma requisição de uma origem (por exemplo, http://localhost:8080) para outra (como http://127.0.0.1:8080).
 - CORS: mecanismo de segurança que os navegadores utilizam para controlar como as páginas da web podem solicitar recursos de domínios diferentes do domínio que serviu a página.
+
+## HTML
+- ao criar uma tabela, <tr> sao as linhas || <th> cada linha possui celulas de cabecalho (titulo)  || cada linha contem celulas de dados <td>
+```<table> <!-- TABELA DEFINIDA-->
+  <tr> <!-- PRIMEIRA LINHA DA TABELA DEFINIDA -->
+    <th>Nome</th>  <!-- TITULO DA PRIMEIRA LINHA-->
+    <th>Idade</th>  <!-- TITULO DA PRIMEIRA LINHA-->
+  </tr> <!-- encerrou primeira linha-->
+  
+  <tr> <!--SEGUNDA LINHA DEFINIDA-->
+    <td>João</td> <!-- DADO CONTIDO NA SEGUNDA LINHA, cada <td> SIGNIFICA uma celula UNICA de dados-->
+    <td>25</td> <!-- OUTRA celula UNICA de dados na segunda linha-->
+  </tr><!-- encerrou segunda linha -->
+  
+  <tr> <!-- TERCEIRA LINHA DEFINIDA-->
+    <td>Maria</td> <!-- Dado da linha 2 -->
+    <td>30</td> <!-- Dado da linha 2 -->
+  </tr>
+</table>
