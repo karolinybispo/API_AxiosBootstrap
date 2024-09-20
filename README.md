@@ -26,7 +26,7 @@
 - CORS: mecanismo de segurança que os navegadores utilizam para controlar como as páginas da web podem solicitar recursos de domínios diferentes do domínio que serviu a página.
 
 ## HTML
-- ao criar uma tabela, '"<tr>"' sao as linhas || '"<th>"' cada linha possui celulas de cabecalho (titulo)  || cada linha contem celulas de dados '"<td>"'
+- ao criar uma tabela, 'tr' sao as linhas || 'th' cada linha possui celulas de cabecalho (titulo)  || cada linha contem celulas de dados 'td'
 ```<table> <!-- TABELA DEFINIDA-->
   <tr> <!-- PRIMEIRA LINHA DA TABELA DEFINIDA -->
     <th>Nome</th>  <!-- TITULO DA PRIMEIRA LINHA-->
