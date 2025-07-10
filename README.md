@@ -1,8 +1,8 @@
-#### API_axiosEbotstrap
+#### API_axiosEbootstrap
 
 # Pagina web com Vue e Botstrap que faz requisicao get a API:
 
-## Botstrap
+## Bootstrap
 - Link: https://getbootstrap.com/: o site oficial fornece o link para incluir o css e js do botstrap.
 *  css: fica na tag 'link' dentro de head.
 *  js: fica na tag 'script' antes de fechar o body.
