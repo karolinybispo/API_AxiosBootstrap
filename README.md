@@ -1,6 +1,10 @@
 #### API_axiosEbootstrap
 
-# Pagina web com Vue e Bootstrap que faz requisicao get a API:
+# Pagina web que faz requisicao get a API
+
+## Tecnologias: 
+* Página web: HTML, CSS, JavaScript, Vue.js, Bootstrap e Axios.
+* Api: Java, Spring Boot, Spring Boot DevTools e Sring Web.
 
 ## Bootstrap
 - Link: https://getbootstrap.com/: o site oficial fornece o link para incluir o css e js do botstrap.
